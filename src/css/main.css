@@ -29,9 +29,7 @@
     /* Dimensions */
     --page_distance_top: 8vh;
     --page_distance_bottom: 92vh;
-    --page_left: 250px;
-    --box_padding_full: 10px;
-    --box_padding_half: 5px;
-    --box_padding_full_and_half: 20px;
-
+    --box_space_max: 20px;
+    --box_space_full: 10px;
+    --box_space_half: 5px;
 }

@@ -1,0 +1,13 @@
+.test-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.test-section {
+    background: #3bbced;
+    padding: 20px;
+}
+
+.test-section:nth-child(even) {
+    background: #777777;
+}
