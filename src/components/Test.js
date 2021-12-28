@@ -5,6 +5,7 @@ const Test = (props) => {
     return (
         <section className='test-section'>
             <h2>{props.name}</h2>
+            <p>{props.description}</p>
         </section>
     )
 
@@ -12,7 +13,8 @@ const Test = (props) => {
 
 Test.defaultProps = {
     
-    name: "None"
+    name: "None",
+    description: "None"
 
 }
 
