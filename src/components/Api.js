@@ -27,7 +27,9 @@ class Api extends Component {
             <div>
                 <h1>Devices</h1>
                 {
-                    //devices.results.map(device => <div key={device.id}>{device.name}</div>)
+                    // devices.results.map((device) => {
+                    //     return <div key={device.id}>{device.name}</div>
+                    // })
                 }
             </div>
         )

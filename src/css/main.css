@@ -33,3 +33,7 @@
     --box_space_full: 10px;
     --box_space_half: 5px;
 }
+
+#root {
+  padding: 10px;
+}
